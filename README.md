@@ -1,2 +1,2 @@
 # python
-python projects and pratices
+python  pratices
