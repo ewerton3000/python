@@ -1,3 +1,1 @@
-from math import sqrt
-
-print(sqrt(25))
+2 ** 3 
