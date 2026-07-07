@@ -1,3 +1,5 @@
+#Mostre a tabuada de um número informado pelo usuário.
+
 multiplicador = int(input("Digite o valor da tuabada que será exibida: "))
 numero = 1
 
