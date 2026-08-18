@@ -1,5 +1,9 @@
-for numero in range(1 , 11):
-    if numero == 6:
-        break
+lanche = ("Hamburguer", "Suco", "Pizza", "Pudim")
+numeros = (2 , 4 ,7)
 
-    print(numero)
+print(numeros.index(7))
+
+if "Pizza" in lanche:
+    print("Tem pizza!")
+else:
+    print("Não tem pizza")
