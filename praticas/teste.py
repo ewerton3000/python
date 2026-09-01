@@ -1,9 +1,7 @@
-lanche = ("Hamburguer", "Suco", "Pizza", "Pudim")
-numeros = (2 , 4 ,7)
+saque = 380
 
-print(numeros.index(7))
+for d in [100,50,20,10]:
+    quantidade = saque // d
+    resto = saque % d
 
-if "Pizza" in lanche:
-    print("Tem pizza!")
-else:
-    print("Não tem pizza")
+    print(d , quantidade , resto)
