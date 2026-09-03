@@ -1,7 +1,10 @@
-saque = 380
+i = 1
 
-for d in [100,50,20,10]:
-    quantidade = saque // d
-    resto = saque % d
+while i <= 2:
+    j = 1
 
-    print(d , quantidade , resto)
+    while j <= 3:
+        print(i, j)
+        j += 1
+
+    i += 1
