@@ -1,10 +1,9 @@
-i = 1
+a = [1, 2, 3]
 
-while i <= 2:
-    j = 1
+b = a
 
-    while j <= 3:
-        print(i, j)
-        j += 1
+b.append(4)
 
-    i += 1
+print(a)
+print(b)
+
